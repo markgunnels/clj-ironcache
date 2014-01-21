@@ -1,10 +1,10 @@
 # clj-ironcache
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library for accessing the REST API of iron.io's IronCache.
 
 ## Usage
 
-FIXME
+TODO
 
 ## License
 
