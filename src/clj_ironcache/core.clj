@@ -28,8 +28,10 @@
                            options))
       :body))
 
-;; /projects/ {Project ID}/caches GET List Caches
+
 (defn list-caches
+  "Get a list of all caches in a project. 100 caches are listed at a time. To see more, use the page parameter.
+  /projects/ {Project ID}/caches GET List Caches"
   [token project-id]
   (call :get nil {} token project-id))
 
